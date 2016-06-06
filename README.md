@@ -11,8 +11,8 @@
 ## Gebruikte technieken
 * Symmetrische encryptie
   * Random salt m.b.v. SecureRandom
-  * AES (AES/CBC/PKCS5Padding)
   * PBKDF2-HMAC-SHA256 voor het aanmaken van een secret key met een salt en password
+  * AES (AES/CBC/PKCS5Padding) voor de versleuteling met secret key
 * RESTful Service
 
 ## Informatie
