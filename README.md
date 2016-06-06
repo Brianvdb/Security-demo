@@ -13,7 +13,7 @@
   * Random salt m.b.v. SecureRandom
   * AES (AES/CBC/PKCS5Padding)
   * PBKDF2-HMAC-SHA256 voor het aanmaken van een secret key met een salt en password
-* RESTFUL Service
+* RESTful Service
 
 ## Informatie
-De encryptie/decrypte gebeurd in de SuperSecretMaker klasse.
+De encryptie/decrypte gebeurd in de [SuperSecretMaker](https://github.com/Brianvdb/Security-demo/blob/master/src/main/java/edu/avans/brianvdb/utils/SuperSecretMaker.java) klasse.
